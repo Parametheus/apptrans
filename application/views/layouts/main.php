@@ -15,70 +15,10 @@
         <link rel="stylesheet" href="<?= asset_url('css/normalize.css') ?>">
         <link rel="stylesheet" href="<?= asset_url('css/main.css') ?>">
         <link rel="stylesheet" href="<?= asset_url('css/bootstrap.min.css') ?>">
-
+        <link rel="stylesheet" href="<?= asset_url('css/site.css') ?>">
+        
         <script src="<?= asset_url('js/vendor/modernizr-2.6.2.min.js') ?>"></script>
         <script src="<?= asset_url('js/vendor/jquery-1.9.0.min.js') ?>"></script>
-        
-        <style type="text/css">
-        	h1,h2,h3,h4,h5,h6{
-				font-family: "Oswald", sans-serif;
-				font-weight:normal;
-				color:#666;
-				margin:3px 0px;
-				padding:3px 0px;
-			}
-			
-			.afeature {
-				display: block;
-			}
-			
-			.afeature{
-				width:190px;
-				height:190px;
-				margin:10px auto;
-				background:#eee url("http://responsivewebinc.com/premium/ericka/ericka-o/img/header-back.png") repeat;
-				border-radius:250px;
-				border:5px solid #fff;
-				box-shadow:0px 0px 3px #aaa;
-				text-align:center;
-				-webkit-transition:border 1s ease;
-				-moz-transition:border 1s ease;
-				-o-transition:border 1s ease;
-				transition:border 1s ease;
-			}
-			
-			
-			.afeature:hover{text-decoration: none; cursor: pointer; cursor: hand;}
-			.afeature:hover{
-				-webkit-transition:border 1s ease;
-				-moz-transition:border 1s ease;
-				-o-transition:border 1s ease;
-				transition:border 1s ease;
-			}
-			
-			.afeature:hover{
-				border:5px solid #e24e35;
-			}
-			
-			.afmatter{
-				width:80%;
-				margin:10px auto;
-				padding-top:15px;
-				line-height:19px;
-				font-size:13px;
-				color:#666;
-			}
-			
-			.afmatter i{
-				font-size:40px;
-				width:40px;
-				margin-bottom:12px;
-			}
-			
-			.afmatter i{
-				color:#e24e35;
-			}
-        </style>
     </head>
     <body>
         <!--[if lt IE 7]>
