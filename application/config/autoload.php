@@ -52,7 +52,7 @@ $autoload['packages'] = array();
 |	$autoload['libraries'] = array('database', 'session', 'xmlrpc');
 */
 
-$autoload['libraries'] = array();
+$autoload['libraries'] = array('template', 'session');
 
 
 /*
@@ -64,7 +64,7 @@ $autoload['libraries'] = array();
 |	$autoload['helper'] = array('url', 'file');
 */
 
-$autoload['helper'] = array('url', 'html');
+$autoload['helper'] = array('url', 'assets', 'alert', 'navigation', 'language');
 
 
 /*
@@ -80,7 +80,7 @@ $autoload['helper'] = array('url', 'html');
 |
 */
 
-$autoload['config'] = array();
+$autoload['config'] = array('general');
 
 
 /*
@@ -110,9 +110,6 @@ $autoload['language'] = array();
 */
 
 $autoload['model'] = array();
-
-
-$autoload['sparks'] = array('twiggy/0.8.3');
 
 
 /* End of file autoload.php */
