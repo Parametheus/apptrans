@@ -42,7 +42,7 @@ class Apptrans extends CI_Controller {
 
 	function inicio() {
 		$datos = array('url' => $this->url_site . $this->url_base);
-
+		$prueba = 'estos es prueba';
 		$html = $this->parser->parse('inicio', $datos, TRUE);
 		$this->output->set_output($html);
 
