@@ -76,7 +76,7 @@
 						</div>
         			</a>
         		</div>
-        		<div class="span3">
+        		<div class="span3" style="clear:left;margin-top:22px">
         			<a class="afeature" href="#">
 						<div class="afmatter">
 							<i>o</i>
@@ -85,7 +85,7 @@
 						</div>
         			</a>
         		</div>
-        		<div class="span3">
+        		<div class="span3" style="margin-top:22px">
         			<a class="afeature" href="#">
 						<div class="afmatter">
 							<i>o</i>

@@ -39,6 +39,9 @@
 */
 
 $route['default_controller'] = "apptrans";
+$route['apptrans'] = "apptrans/index";
+$route['apptrans/(\S+)'] = "apptrans/navegacion/$1";
+$route['(\S+)'] = "apptrans/navegacion/$1";
 $route['404_override'] = '';
 
 
