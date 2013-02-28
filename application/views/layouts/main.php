@@ -19,11 +19,41 @@
         
         <script src="<?= asset_url('js/vendor/modernizr-2.6.2.min.js') ?>"></script>
         <script src="<?= asset_url('js/vendor/jquery-1.9.0.min.js') ?>"></script>
+        
+        <style type="text/css">
+        body {
+		  padding-top: 60px;
+		}
+        </style>
     </head>
     <body>
         <!--[if lt IE 7]>
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
+        
+        <header>
+        	<nav class="navbar navbar-fixed-top">
+        		<div class="navbar-inner">
+        			<div class="container">
+	        			<a class='btn btn-navbar' data-target='.nav-collapse' data-toggle='collapse'>
+				          <span class='icon-bar'></span>
+				          <span class='icon-bar'></span>
+				          <span class='icon-bar'></span>
+				        </a>
+        				<div class="nav-collapse collapse">
+        					<a class="brand" href="#">Autoservicio Online</a>
+        					<ul id="tab" class="nav pull-right">
+        						<li><a href="#Tab1" data-toggle="tab">Servicio</a></li>
+        						<li><a href="#Tab1" data-toggle="tab">Nosotros</a></li>
+        						<li><a href="#Tab1" data-toggle="tab">Ayuda</a></li>
+        						
+        					</ul>
+        					
+        				</div>
+        			</div>
+        		</div>
+        	</nav>
+        </header>
         
         
         <div class="container">
@@ -67,7 +97,9 @@
         	</div>
         </div>
 
-        <?= $contents ?>
+       <div class="container">
+       	<?= $contents ?>
+       </div>
         
     </body>
 </html>
