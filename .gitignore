@@ -7,4 +7,9 @@
 */logs/log-*.php
 */logs/!index.html
 */cache/*
+<<<<<<< HEAD
 */cache/!index.html
+=======
+*/cache/!index.html
+/nbproject/*
+>>>>>>> 8d148bbfc9bb9c41ad30f9e92fe82c9bec5ef689
