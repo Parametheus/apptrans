@@ -1,1 +1,3 @@
 sdsd
+
+<?php echo $algo; ?>
